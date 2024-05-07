@@ -72,3 +72,6 @@ header nav a:hover {
     color: #DBF227; 
     box-shadow: 0 0 10px #DBF227; <!-- glow effect-->
 }
+#main p {
+    color: #DBF227;
+}
