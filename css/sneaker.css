@@ -62,3 +62,8 @@ p {
 #main img {
     width: 65%; 
     height: auto; 
+}
+
+header h1 {
+    color: #038C3E;
+}
