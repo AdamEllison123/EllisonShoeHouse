@@ -67,3 +67,8 @@ p {
 header h1 {
     color: #038C3E;
 }
+header nav a:hover {
+    background-color: #fff;
+    color: #DBF227; 
+    box-shadow: 0 0 10px #038C3E; 
+}
