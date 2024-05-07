@@ -74,4 +74,5 @@ header nav a:hover {
 }
 #main p {
     color: #DBF227;
+    border-bottom: 1px solid #000;
 }
