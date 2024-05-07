@@ -16,10 +16,38 @@
     </header>
     
     <div id="main">
-        <form action="#">
+        <form action="thankyou.html"> <!-- supposed to redirect to thank_you.html on form submission -->
             <label for="fname">First Name:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Last Name:</label><br>
             <input type="text" id="lname" name="lname"><br>
             <label for="phone">Phone:</label><br>
-            <input type="
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label>Rate Our Website:</label><br>
+            <input type="radio" id="good" name="rating" value="good">
+            <label for="good">Good</label><br>
+            <input type="radio" id="eh" name="rating" value="eh">
+            <label for="eh">Eh</label><br>
+            <input type="radio" id="amazing" name="rating" value="amazing">
+            <label for="amazing">Amazing Shoes!</label><br>
+            <label for="subscribe">Subscribe for Deals:</label><br>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Yes, I want to receive exclusive deals via email!</label><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+    
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <p>&copy; 2024 | Sneaker Company</p>
+    </footer>
+</div>
+</body>
+</html>
